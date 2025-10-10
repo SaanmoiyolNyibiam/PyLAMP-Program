@@ -1,0 +1,18 @@
+site_name: PyLAMP Program
+site_description: A guide to software development using the LAMP Stack
+theme:
+  name: readthedocs
+
+nav:
+  - Home: index.md
+  # - SE Basics:
+      # - Overview: se_basics/README.md
+      # - 0x01 - Introduction to Mindsets: se_basics/0x01-introduction_to_mindsets.md
+      # - 0x02 - Mental Health Network: se_basics/0x02-mental_health_network.md
+      # - 0x03 - Owning Your Learning: se_basics/0x03-owning_your_learning.md
+      # - 0x04 - Map Your Mind: se_basics/0x04-map_your_mind.md
+      # - 0x05 - Shell Navigation: se_basics/0x05-shell_navigation.md
+      # - 0x06 - Emacs: se_basics/0x06-emacs.md
+      # - 0x07 - Vi: se_basics/0x07-vi.md
+      # - 0x08 - Git: se_basics/0x08-git.md
+      # - 0x09 - Markdown: se_basics/0x09-markdown.md
