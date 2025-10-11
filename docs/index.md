@@ -9,12 +9,17 @@ Use the outline below to navigate through the modules.
 ## 📘 PyLAMP Program Project List
 
 ### Week 1 Projects
+- [Overview](se_basics/README.md)
 - [Introduction to mindsets](se_basics/0x01-introduction_to_mindsets.md)
-- [Preserving your mental health and network](se_basics/0x02-mental_health_network.md )
+- [Preserving your mental health and network](se_basics/0x02-mental_health_network.md)
+- [Owning your learning](se_basics/0x03-owning_your_learning.md)
 - [Maping your mind](se_basics/0x04-map_your_mind.md)
 - [Setting up your local coding environment](se_basics/)
 - [Version control with Git and GitHub](se_basics/0x08-git.md)
 - [Shell navigation](se_basics/0x05-shell_navigation.md)
+- Command Line Editors:
+    - [Vi or Vim](se_basics/0x07-vi.md)
+    - [emacs](se_basics/0x06-emacs.md)
 - [Markdown](se_basics/0x09-markdown.md)
 
 ---
