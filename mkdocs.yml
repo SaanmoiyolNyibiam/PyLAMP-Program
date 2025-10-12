@@ -12,7 +12,7 @@ nav:
           - Preserving your mental health and network: se_basics/0x02-mental_health_network.md
           - Owning your learning: se_basics/0x03-owning_your_learning.md
           - Map your mind: se_basics/0x04-map_your_mind.md
-          - Setting up your local coding environment: se_basics/README.md
+          - Setting up your local coding environment: se_basics/setting_up_your_local_coding_environment.md
           - Version control with Git and GitHub: se_basics/0x08-git.md
           - Shell navigation: se_basics/0x05-shell_navigation.md
           - Command Line Editors:
