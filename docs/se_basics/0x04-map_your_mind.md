@@ -36,9 +36,9 @@ A user will enter numbers that will be added to the sum and when a negative numb
 You are going to create a flow chart and pseudo code.
 
 __General Tips:__
-1. You can make use of an online tool [draw.io](https://www.drawio.com/) for designing your flowcharts.
-2. Create the algorithm for each task into a flow chart, save a copy.
-3. Create a folder in google drive named `Map your mind` and upload your file there.
-4. Create pseudocode in a google doc and upload file to the folder as well.
-5. Make sure you give access to anyone with link for both pseudocode and flowchart files.
-6. Give access to anyone with link to the folder and forward your link to your PyLAMP Program instructor.
+- You can make use of an online tool [draw.io](https://www.drawio.com/) for designing your flowcharts.
+- Create the algorithm for each task into a flow chart, save a copy.
+- Create a folder in google drive named `Map your mind` and upload your file there.
+- Create pseudocode in a google doc and upload file to the folder as well.
+- Make sure you give access to anyone with link for both pseudocode and flowchart files.
+- Give access to anyone with link to the folder and forward your link to your PyLAMP Program instructor.
