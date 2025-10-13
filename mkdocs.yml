@@ -1,7 +1,7 @@
 site_name: PyLAMP Program
 site_description: A guide to software development using the LAMP Stack
 theme:
-  name: readthedocs
+  name: material
 
 nav:
   - Home: index.md
