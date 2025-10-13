@@ -28,7 +28,7 @@ Navigate to `/root` and create a directory named `0x02_emacs`
 
 ### Task 1
 
-What is the command to open a file from within Emacs?  
+What is the command to open a file from within Emacs?
 Write the answer into the file `/root/0x02_emacs/opening`.
 
 You can validate if the format of your answer is correct by displaying the file information:
@@ -40,31 +40,31 @@ root@hex:~#
 ```
 
 ### Task 2
-
 What is the command to save a file?
+
 Write the answer into the file `/root/0x02_emacs/saving`.
 
 ### Task 3
-
 What is the command to cut an entire line?
+
 Write the answer into the file `/root/0x02_emacs/cutting`.
 
 ### Task 4
-
 What is the command to paste?
+
 Write the answer into the file `/root/0x02_emacs/pasting`.
 
 ### Task 5
-
 What is the command to search forward?
+
 Write the answer into the file `/root/0x02_emacs/searching`.
 
 ### Task 6
-
 What is the command to undo?
+
 Write the answer into the file `/root/0x02_emacs/undoing`.
 
 ### Task 7
-
 What is the command to quit Emacs?
+
 Write the answer into the file `/root/0x02_emacs/quitting`.
