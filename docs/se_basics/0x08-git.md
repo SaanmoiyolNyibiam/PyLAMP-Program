@@ -3,10 +3,10 @@
 `Code versioning`
 `Github`
 
-Most of the projects in this program are supposed to be done in a Linux (Ubuntu) environment.
-
-For that matter, you will need to set up a similar environment for that purpose. This project is therefore a guide for you to set up the necessary coding environment irrespective
-of the operating system that you are using.
+The use of Git and Github in modern day development for version control places
+it at the heart of software development, making it a basic neccesity for every
+Software Developer to embrace. This project dives into Git and Github, have a
+wonderful time learning how to manage code versions.
 
 ## Resources
 - [Resources to learn Git](https://docs.github.com/en/get-started/git-basics/set-up-git)
@@ -93,13 +93,13 @@ On your ubuntu, do the following:
 - Clone your repository
 
 ```
-root@896cf839cf9a:/# git clone https://{YOUR_PERSONAL_TOKEN}@github.com/{YOUR_USERNAME}/PyLAMP-zero_day.git
+root@896cf839cf9a:~# git clone https://{YOUR_PERSONAL_TOKEN}@github.com/{YOUR_USERNAME}/PyLAMP-zero_day.git
 Cloning into 'PyLAMP-zero_day'...
 warning: You appear to have cloned an empty repository.
 ```
-> __Replace {YOUR_PERSONAL_TOKEN} with your token from step 1__
+__Replace {YOUR_PERSONAL_TOKEN} with your token from step 1__
 
-> __Replace {YOUR_USERNAME} with your username from step 0 and 1__
+__Replace {YOUR_USERNAME} with your username from step 0 and 1__
 
 __Step 4 - Create the README.md and push the modifications__
 
@@ -118,8 +118,8 @@ My first readme
 
 - Update your git identity
 ```
-root@896cf839cf9a:/alx-pre_course# git config --global user.email "you@example.com"
-root@896cf839cf9a:/alx-pre_course# git config --global user.name "Your Name"
+root@896cf839cf9a:~# git config --global user.email "you@example.com"
+root@896cf839cf9a:~# git config --global user.name "Your Name"
 ```
 
 - Add this new file to git, commit the change with this message “My first commit” and push to the remote server / origin
@@ -182,7 +182,7 @@ Repo:
 
 - GitHub repository: `PyLAMP-zero_day`
 - Directory: `0x08-git`
-- File:  `bash/alx`, `bash/school`, `c/c_is_fun.c`, `js/main.js`, `js/index.js`
+- File:  `bash/PyLAMP`, `bash/school`, `c/c_is_fun.c`, `js/main.js`, `js/index.js`
 
 ### 3. Collaboration is the base of a company
 A branch is like a copy of your project. It’s used mainly for:
@@ -197,7 +197,7 @@ The purpose of a branch is to isolate your work from the main code base of your 
 For this project, create a branch `update_script` and in this branch:
 
 - Create an empty file named `bash/98`
-- Update `bash/alx` by replacing echo `"PyLAMP"` with `echo "PyLAMP School"`
+- Update `bash/PyLAMP` by replacing echo `"PyLAMP"` with `echo "PyLAMP School"`
 - Update `bash/school` by replacing echo `"School"` with `echo "The school is open!"`
 - Add and commit these changes (message: “My personal work”)
 - Push this new branch [Tips](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository)
@@ -216,7 +216,7 @@ Ouf, hot fix is done!
 Repo:
 - GitHub repository: `PyLAMP-zero_day`
 - Directory: `0x08-git`
-- File:   `bash/alx`, `bash/school`, `bash/98`
+- File:   `bash/PyLAMP`, `bash/school`, `bash/98`
 
 ### 4. Collaboration: be up to date
 Of course, you can also work on the same branch as your co-workers and it’s best if you keep up to date with their changes.
@@ -241,7 +241,7 @@ Collaboration is cool, but not really when you update the same file at the same 
 To illustrate that, please merge the branch `update_script` to `main`: “Cool, all my changes will be now part of the main branch, ready to be deployed!”
 HHHHHHHAAAAAAAA
 ```
-CONFLICT (content): Merge conflict in bash/alx
+CONFLICT (content): Merge conflict in bash/PyLAMP
 ```
 As you can see, you have conflicts between two branches on the same file.
 
