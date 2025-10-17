@@ -12,7 +12,8 @@ wonderful time learning how to manage code versions.
 - [Resources to learn Git](https://docs.github.com/en/get-started/git-basics/set-up-git)
 - [About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
 - [How to write a Git commit message](https://cbea.ms/git-commit/)
-- [Conventional Commits](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)
+- [Conventional Commits 1](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)
+- [Conventional Commits 2](https://www.conventionalcommits.org/en/v1.0.0/)
 
 ## Resources for advanced concepts
 - [Learning branching](https://learngitbranching.js.org/)
