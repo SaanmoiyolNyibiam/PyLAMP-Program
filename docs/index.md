@@ -8,7 +8,9 @@ Use the outline below to navigate through the modules.
 
 ## 📘 PyLAMP Program Project List
 
-### Week 1 Projects
+### Month 1
+
+#### Week 1 Projects
 - [Overview](se_basics/README.md)
 - [Introduction to mindsets](se_basics/0x01-introduction_to_mindsets.md)
 - [Preserving your mental health and network](se_basics/0x02-mental_health_network.md)
@@ -24,23 +26,69 @@ Use the outline below to navigate through the modules.
 
 ---
 
-### Week 2 Projects
-- [Coming Soon...]()
+#### Week 2 Projects
+- [0x00. Python - Hello, World]()
+- [0x01. Python - if/else, loops, functions]()
 
 ---
 
-### Week 3 Projects
-- [Coming Soon...]()
+#### Week 3 Projects
+- [0x02. Python - import & modules]()
+- [0x03. Python - Data Structures: Lists, Tuples]()
 
 ---
 
-### Week 4 Projects
-- [Coming Soon...]()
+#### Week 4 Projects
+- [0x05. Python - Exceptions]()
+- [0x06. Python - Classes and Objects]()
 
 ---
 
-### Week 5 Projects
-- [Coming Soon...]()
+### Month 2
+
+#### Week 5 Projects
+- [0x09. Python - Everything is object]()
+- [0x0A. Python - Inheritance]()
+
+#### Week 6 Projects
+- [0x0B. Python - Input/Output]()
+- [0x0C. Python - Almost a circle]()
+
+#### Week 7 Projects
+- [0x00. AirBnB clone - The console]()
+- [0x0D. SQL - Introduction]()
+
+#### Week 8 Projects
+- [0x0E. SQL - More queries]()
+- [0x01. AirBnB clone - Web static]()
+
+### Month 3
+
+#### Week 9 Projects
+- [0x12. JavaScript - Warm up]()
+- [0x13. JavaScript - Objects, Scopes and Closures]()
+
+#### Week 10 Projects
+- [0x0F. Python - Object-relational mapping]()
+- [0x02. AirBnB clone - MySQL]()
+
+#### Week 11 Projects
+- [0x10. Python - Network #0]()
+- [0x11. Python - Network #1]()
+
+#### Week 12 Projects
+- [0x03. AirBnB clone - Deploy static]()
+- [0x04. AirBnB clone - Web framework]()
+
+### Month 4
+
+#### Week 13 Projects
+- [0x14. JavaScript - Web scraping]()
+- [0x05. AirBnB clone - RESTful API]()
+
+#### Week 14 Projects
+- [0x15. JavaScript - Web jQuery]()
+- [0x06. AirBnB clone - Web dynamic]()
 
 ---
 
