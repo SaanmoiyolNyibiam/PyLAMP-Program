@@ -27,19 +27,21 @@ Use the outline below to navigate through the modules.
 ---
 
 #### Week 2 Projects
-- [0x00. Python - Hello, World]()
-- [0x01. Python - if/else, loops, functions]()
+- [0x00. Python - Hello, World](Higher-level_programming/Python/0x00-Python-Hello_World.md)
+- [0x01. Python - if/else, loops, functions](Higher-level_programming/Python/0x01-Python-if_else_loops_functions.md)
+- [Shell Basics](Bash/0x00-shell_basics.md)
+- [Shell Permissions](Bash/0x01-shell_permissions.md)
 
 ---
 
 #### Week 3 Projects
-- [0x02. Python - import & modules]()
-- [0x03. Python - Data Structures: Lists, Tuples]()
+- [0x02. Python - import & modules](Higher-level_programming/Python/0x02-python-import_modules.md)
+- [0x03. Python - Data Structures: Lists, Tuples](Higher-level_programming/Python/0x03-python-data_structures.md)
 
 ---
 
 #### Week 4 Projects
-- [0x05. Python - Exceptions]()
+- [0x05. Python - Exceptions](Higher-level_programming/Python/0x05-python-exceptions.md)
 - [0x06. Python - Classes and Objects]()
 
 ---
@@ -89,11 +91,6 @@ Use the outline below to navigate through the modules.
 #### Week 14 Projects
 - [0x15. JavaScript - Web jQuery]()
 - [0x06. AirBnB clone - Web dynamic]()
-
----
-
-## 📂 Resources
-- [Coming Soon...]()
 
 ---
 
