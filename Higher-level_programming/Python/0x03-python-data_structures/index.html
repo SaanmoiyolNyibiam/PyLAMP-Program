@@ -11,22 +11,22 @@
       
       
       
-        <link rel="prev" href="../0x07-vi/">
+        <link rel="prev" href="../0x02-python-import_modules/">
       
       
-        <link rel="next" href="../0x09-markdown/">
+        <link rel="next" href="../0x05-python-exceptions/">
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.21">
     
     
       
-        <title>emacs - PyLAMP Program</title>
+        <title>0x03. Python - Data Structures: Lists, Tuples - PyLAMP Program</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.2a3383ac.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.2a3383ac.min.css">
       
       
 
@@ -45,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#emacs" class="md-skip">
+        <a href="#0x03-python-data-structures-lists-tuples" class="md-skip">
           Skip to content
         </a>
       
@@ -80,7 +80,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="PyLAMP Program" class="md-header__button md-logo" aria-label="PyLAMP Program" data-md-component="logo">
+    <a href="../../.." title="PyLAMP Program" class="md-header__button md-logo" aria-label="PyLAMP Program" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              emacs
+              0x03. Python - Data Structures: Lists, Tuples
             
           </span>
         </div>
@@ -178,7 +178,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="PyLAMP Program" class="md-nav__button md-logo" aria-label="PyLAMP Program" data-md-component="logo">
+    <a href="../../.." title="PyLAMP Program" class="md-nav__button md-logo" aria-label="PyLAMP Program" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -196,7 +196,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -295,20 +295,18 @@
                 
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_1" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_1" >
         
           
           <label class="md-nav__link" for="__nav_2_1_1" id="__nav_2_1_1_label" tabindex="0">
@@ -324,7 +322,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_1_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_1_1">
             <span class="md-nav__icon md-icon"></span>
             Week 1 Projects
@@ -338,7 +336,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../../se_basics/" class="md-nav__link">
         
   
   
@@ -361,7 +359,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../0x01-introduction_to_mindsets/" class="md-nav__link">
+      <a href="../../../se_basics/0x01-introduction_to_mindsets/" class="md-nav__link">
         
   
   
@@ -384,7 +382,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../0x02-mental_health_network/" class="md-nav__link">
+      <a href="../../../se_basics/0x02-mental_health_network/" class="md-nav__link">
         
   
   
@@ -407,7 +405,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../0x03-owning_your_learning/" class="md-nav__link">
+      <a href="../../../se_basics/0x03-owning_your_learning/" class="md-nav__link">
         
   
   
@@ -430,7 +428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../0x04-map_your_mind/" class="md-nav__link">
+      <a href="../../../se_basics/0x04-map_your_mind/" class="md-nav__link">
         
   
   
@@ -453,7 +451,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../setting_up_your_local_coding_environment/" class="md-nav__link">
+      <a href="../../../se_basics/setting_up_your_local_coding_environment/" class="md-nav__link">
         
   
   
@@ -476,7 +474,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../0x08-git/" class="md-nav__link">
+      <a href="../../../se_basics/0x08-git/" class="md-nav__link">
         
   
   
@@ -499,7 +497,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../0x05-shell_navigation/" class="md-nav__link">
+      <a href="../../../se_basics/0x05-shell_navigation/" class="md-nav__link">
         
   
   
@@ -519,20 +517,18 @@
                 
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_1_9" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_1_9" >
         
           
           <label class="md-nav__link" for="__nav_2_1_1_9" id="__nav_2_1_1_9_label" tabindex="0">
@@ -548,7 +544,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_1_1_9_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_1_1_9_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_1_1_9">
             <span class="md-nav__icon md-icon"></span>
             Command Line Editors
@@ -562,7 +558,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../0x07-vi/" class="md-nav__link">
+      <a href="../../../se_basics/0x07-vi/" class="md-nav__link">
         
   
   
@@ -582,32 +578,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    emacs
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../se_basics/0x06-emacs/" class="md-nav__link">
         
   
   
@@ -618,131 +592,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#resources" class="md-nav__link">
-    <span class="md-ellipsis">
-      Resources
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#learning-objectives" class="md-nav__link">
-    <span class="md-ellipsis">
-      Learning Objectives
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tasks" class="md-nav__link">
-    <span class="md-ellipsis">
-      Tasks
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Tasks">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#task-0" class="md-nav__link">
-    <span class="md-ellipsis">
-      Task 0
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#task-1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Task 1
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#task-2" class="md-nav__link">
-    <span class="md-ellipsis">
-      Task 2
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#task-3" class="md-nav__link">
-    <span class="md-ellipsis">
-      Task 3
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#task-4" class="md-nav__link">
-    <span class="md-ellipsis">
-      Task 4
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#task-5" class="md-nav__link">
-    <span class="md-ellipsis">
-      Task 5
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#task-6" class="md-nav__link">
-    <span class="md-ellipsis">
-      Task 6
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#task-7" class="md-nav__link">
-    <span class="md-ellipsis">
-      Task 7
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -763,7 +612,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../0x09-markdown/" class="md-nav__link">
+      <a href="../../../se_basics/0x09-markdown/" class="md-nav__link">
         
   
   
@@ -832,7 +681,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Higher-level_programming/Python/0x00-Python-Hello_World/" class="md-nav__link">
+      <a href="../0x00-Python-Hello_World/" class="md-nav__link">
         
   
   
@@ -855,7 +704,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Higher-level_programming/Python/0x01-Python-if_else_loops_functions/" class="md-nav__link">
+      <a href="../0x01-Python-if_else_loops_functions/" class="md-nav__link">
         
   
   
@@ -878,7 +727,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Bash/0x00-shell_basics/" class="md-nav__link">
+      <a href="../../../Bash/0x00-shell_basics/" class="md-nav__link">
         
   
   
@@ -901,7 +750,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Bash/0x01-shell_permissions/" class="md-nav__link">
+      <a href="../../../Bash/0x01-shell_permissions/" class="md-nav__link">
         
   
   
@@ -929,18 +778,20 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_3" checked>
         
           
           <label class="md-nav__link" for="__nav_2_1_3" id="__nav_2_1_3_label" tabindex="0">
@@ -956,7 +807,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_1_3">
             <span class="md-nav__icon md-icon"></span>
             Week 3 Projects
@@ -970,7 +821,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Higher-level_programming/Python/0x02-python-import_modules/" class="md-nav__link">
+      <a href="../0x02-python-import_modules/" class="md-nav__link">
         
   
   
@@ -990,10 +841,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../Higher-level_programming/Python/0x03-python-data_structures/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    0x03. Python - Data Structures: Lists, Tuples
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1004,6 +877,212 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Objectives
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#python-scripts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Python scripts
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#more-info" class="md-nav__link">
+    <span class="md-ellipsis">
+      More Info
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pycodestyle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pycodestyle
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tasks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tasks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#0-print-a-list-of-integers" class="md-nav__link">
+    <span class="md-ellipsis">
+      0. Print a list of integers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-secure-access-to-an-element-in-a-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Secure access to an element in a list
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-replace-element" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Replace element
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-print-a-list-of-integers-in-reverse" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Print a list of integers... in reverse!
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-replace-in-a-copy" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Replace in a copy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-can-you-c-me-now" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Can you C me now?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-lists-of-lists-matrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Lists of lists = Matrix
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-tuples-addition" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Tuples addition
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-more-returns" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. More returns!
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-find-the-max" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Find the max
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-only-by-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Only by 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-delete-at" class="md-nav__link">
+    <span class="md-ellipsis">
+      11. Delete at
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-switch" class="md-nav__link">
+    <span class="md-ellipsis">
+      12. Switch
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1062,7 +1141,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Higher-level_programming/Python/0x05-python-exceptions/" class="md-nav__link">
+      <a href="../0x05-python-exceptions/" class="md-nav__link">
         
   
   
@@ -1085,7 +1164,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -1200,7 +1279,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -1223,7 +1302,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -1292,7 +1371,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -1315,7 +1394,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -1384,7 +1463,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -1407,7 +1486,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -1476,7 +1555,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -1499,7 +1578,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -1614,7 +1693,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -1637,7 +1716,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -1706,7 +1785,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -1729,7 +1808,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -1798,7 +1877,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -1821,7 +1900,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -1890,7 +1969,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -1913,7 +1992,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -2028,7 +2107,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -2051,7 +2130,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -2120,7 +2199,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -2143,7 +2222,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -2211,7 +2290,7 @@
         <li class="md-nav__item">
   <a href="#resources" class="md-nav__link">
     <span class="md-ellipsis">
-      Resources
+      Resources:
     </span>
   </a>
   
@@ -2221,6 +2300,42 @@
   <a href="#learning-objectives" class="md-nav__link">
     <span class="md-ellipsis">
       Learning Objectives
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#python-scripts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Python scripts
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#more-info" class="md-nav__link">
+    <span class="md-ellipsis">
+      More Info
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pycodestyle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pycodestyle
     </span>
   </a>
   
@@ -2237,72 +2352,117 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#task-0" class="md-nav__link">
+  <a href="#0-print-a-list-of-integers" class="md-nav__link">
     <span class="md-ellipsis">
-      Task 0
+      0. Print a list of integers
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#task-1" class="md-nav__link">
+  <a href="#1-secure-access-to-an-element-in-a-list" class="md-nav__link">
     <span class="md-ellipsis">
-      Task 1
+      1. Secure access to an element in a list
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#task-2" class="md-nav__link">
+  <a href="#2-replace-element" class="md-nav__link">
     <span class="md-ellipsis">
-      Task 2
+      2. Replace element
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#task-3" class="md-nav__link">
+  <a href="#3-print-a-list-of-integers-in-reverse" class="md-nav__link">
     <span class="md-ellipsis">
-      Task 3
+      3. Print a list of integers... in reverse!
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#task-4" class="md-nav__link">
+  <a href="#4-replace-in-a-copy" class="md-nav__link">
     <span class="md-ellipsis">
-      Task 4
+      4. Replace in a copy
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#task-5" class="md-nav__link">
+  <a href="#5-can-you-c-me-now" class="md-nav__link">
     <span class="md-ellipsis">
-      Task 5
+      5. Can you C me now?
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#task-6" class="md-nav__link">
+  <a href="#6-lists-of-lists-matrix" class="md-nav__link">
     <span class="md-ellipsis">
-      Task 6
+      6. Lists of lists = Matrix
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#task-7" class="md-nav__link">
+  <a href="#7-tuples-addition" class="md-nav__link">
     <span class="md-ellipsis">
-      Task 7
+      7. Tuples addition
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-more-returns" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. More returns!
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-find-the-max" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Find the max
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-only-by-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Only by 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-delete-at" class="md-nav__link">
+    <span class="md-ellipsis">
+      11. Delete at
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-switch" class="md-nav__link">
+    <span class="md-ellipsis">
+      12. Switch
     </span>
   </a>
   
@@ -2329,55 +2489,439 @@
 
 
 
-<h1 id="emacs">Emacs</h1>
-<p>Emacs is a command line text editor that is accessible on the linux terminal.</p>
-<h2 id="resources">Resources</h2>
+<h1 id="0x03-python-data-structures-lists-tuples">0x03. Python - Data Structures: Lists, Tuples</h1>
+<p><code>Python</code></p>
+<h2 id="resources">Resources:</h2>
+<p>Read or watch:</p>
 <ul>
-<li><a href="https://www.gnu.org/software/emacs/tour/">A Guided Tour of Emacs</a></li>
+<li><a href="https://docs.python.org/3/tutorial/introduction.html#lists">3.1.3. Lists</a></li>
+<li><a href="https://docs.python.org/3/tutorial/datastructures.html">Data structures (until <code>5.3. Tuples and Sequences</code> included)</a></li>
+<li><a href="https://www.youtube.com/watch?v=A1HUzrvS-Pw">Learn to Program 6 : Lists</a></li>
 </ul>
+<p>man or help:
+<code>python3</code></p>
 <h2 id="learning-objectives">Learning Objectives</h2>
 <ul>
-<li>What is Emacs</li>
-<li>Who is Richard Stallman</li>
-<li>How to open and save files</li>
-<li>What is a buffer and how to switch from one to the other</li>
-<li>How to use the mark and the point to set the region</li>
-<li>How to cut and paste lines and regions</li>
-<li>How to search forward and backward</li>
-<li>How to invoke commands by name</li>
-<li>How to undo</li>
-<li>How to cancel half-entered commands</li>
-<li>How to quit Emacs</li>
+<li>Why Python programming is awesome</li>
+<li>What are lists and how to use them</li>
+<li>What are the differences and similarities between strings and lists</li>
+<li>What are the most common methods of lists and how to use them</li>
+<li>How to use lists as stacks and queues</li>
+<li>What are list comprehensions and how to use them</li>
+<li>What are tuples and how to use them</li>
+<li>When to use tuples versus lists</li>
+<li>What is a sequence</li>
+<li>What is tuple packing</li>
+<li>What is sequence unpacking</li>
+<li>What is the <code>del</code> statement and how to use it</li>
 </ul>
+<h2 id="requirements">Requirements</h2>
+<h2 id="python-scripts">Python scripts</h2>
+<ul>
+<li>Your code should use the pycodestyle</li>
+<li>All your files must be executable</li>
+<li>All your files should end with a new line</li>
+<li>The first line of all your files should be exactly <code>#!/usr/bin/python3</code></li>
+<li>A <code>README.md</code> file at the root of the repo, containing a description of the repository</li>
+<li>A <code>README.md</code> file, at the root of the folder of this project, is mandatory</li>
+</ul>
+<h2 id="more-info">More Info</h2>
+<h2 id="pycodestyle">Pycodestyle</h2>
+<p><strong>Pycodestyle</strong> is now the <a href="https://github.com/PyCQA/pycodestyle/issues/466">new standard of Python style code</a></p>
 <h2 id="tasks">Tasks</h2>
-<h3 id="task-0">Task 0</h3>
-<p>Navigate to <code>/root</code> and create a directory named <code>0x02_emacs</code></p>
-<h3 id="task-1">Task 1</h3>
-<p>What is the command to open a file from within Emacs?
-Write the answer into the file <code>/root/0x02_emacs/opening</code>.</p>
-<p>You can validate if the format of your answer is correct by displaying the file information:</p>
-<pre><code>root@hex:~# ls -l /root/0x02_emacs/opening
--rw-r--r-- 1 root root 9 Nov 11 04:34 /root/0x02_emacs/opening
-root@hex:~#
+<h3 id="0-print-a-list-of-integers">0. Print a list of integers</h3>
+<p>Write a function that prints all integers of a list.</p>
+<ul>
+<li>Prototype: <code>def print_list_integer(my_list=[]):</code></li>
+<li>Format: one integer per line. See example</li>
+<li>You are not allowed to import any module</li>
+<li>You can assume that the list only contains integers</li>
+<li>You are not allowed to cast integers into strings</li>
+<li>You have to use <code>str.format()</code> to print integers</li>
+</ul>
+<pre><code>exa@ubuntu:~/0x03$ cat 0-main.py
+#!/usr/bin/python3
+print_list_integer = __import__('0-print_list_integer').print_list_integer
+
+my_list = [1, 2, 3, 4, 5]
+print_list_integer(my_list)
+
+exa@ubuntu:~/0x03$ ./0-main.py
+1
+2
+3
+4
+5
+exa@ubuntu:~/0x03$
 </code></pre>
-<h3 id="task-2">Task 2</h3>
-<p>What is the command to save a file?</p>
-<p>Write the answer into the file <code>/root/0x02_emacs/saving</code>.</p>
-<h3 id="task-3">Task 3</h3>
-<p>What is the command to cut an entire line?</p>
-<p>Write the answer into the file <code>/root/0x02_emacs/cutting</code>.</p>
-<h3 id="task-4">Task 4</h3>
-<p>What is the command to paste?</p>
-<p>Write the answer into the file <code>/root/0x02_emacs/pasting</code>.</p>
-<h3 id="task-5">Task 5</h3>
-<p>What is the command to search forward?</p>
-<p>Write the answer into the file <code>/root/0x02_emacs/searching</code>.</p>
-<h3 id="task-6">Task 6</h3>
-<p>What is the command to undo?</p>
-<p>Write the answer into the file <code>/root/0x02_emacs/undoing</code>.</p>
-<h3 id="task-7">Task 7</h3>
-<p>What is the command to quit Emacs?</p>
-<p>Write the answer into the file <code>/root/0x02_emacs/quitting</code>.</p>
+<p>Repo:</p>
+<ul>
+<li>GitHub repository: <code>PyLAMP-Program_Projects</code></li>
+<li>Directory: <code>0x03-python-data_structures</code></li>
+<li>File: <code>0-print_list_integer.py</code></li>
+</ul>
+<h3 id="1-secure-access-to-an-element-in-a-list">1. Secure access to an element in a list</h3>
+<p>Write a function that retrieves an element from a list like in C.</p>
+<ul>
+<li>Prototype: <code>def element_at(my_list, idx):</code></li>
+<li>If <code>idx</code> is negative, the function should return <code>None</code></li>
+<li>If <code>idx</code> is out of range (&gt; of number of element in <code>my_list</code>), the function should return <code>None</code></li>
+<li>You are not allowed to import any module</li>
+<li>You are not allowed to use <code>try/except</code></li>
+</ul>
+<pre><code>exa@ubuntu:~/0x03$ cat 1-main.py
+#!/usr/bin/python3
+element_at = __import__('1-element_at').element_at
+
+my_list = [1, 2, 3, 4, 5]
+idx = 3
+print(&quot;Element at index {:d} is {}&quot;.format(idx, element_at(my_list, idx)))
+
+exa@ubuntu:~/0x03$ ./1-main.py
+Element at index 3 is 4
+exa@ubuntu:~/0x03$
+</code></pre>
+<p>Repo:</p>
+<ul>
+<li>GitHub repository: <code>PyLAMP-Program_Projects</code></li>
+<li>Directory: <code>0x03-python-data_structures</code></li>
+<li>File: <code>1-element_at.py</code></li>
+</ul>
+<h3 id="2-replace-element">2. Replace element</h3>
+<p>Write a function that replaces an element of a list at a specific position (like in C).</p>
+<ul>
+<li>Prototype: <code>def replace_in_list(my_list, idx, element):</code></li>
+<li>If <code>idx</code> is negative, the function should not modify anything, and returns the original list</li>
+<li>If <code>idx</code> is out of range (&gt; of number of element in <code>my_list</code>), the function should not modify anything, and returns the original list</li>
+<li>You are not allowed to import any module</li>
+<li>You are not allowed to use <code>try/except</code></li>
+</ul>
+<pre><code>exa@ubuntu:~/0x03$ cat 2-main.py
+#!/usr/bin/python3
+replace_in_list = __import__('2-replace_in_list').replace_in_list
+
+my_list = [1, 2, 3, 4, 5]
+idx = 3
+new_element = 9
+new_list = replace_in_list(my_list, idx, new_element)
+
+print(new_list)
+print(my_list)
+
+exa@ubuntu:~/0x03$ ./2-main.py
+[1, 2, 3, 9, 5]
+[1, 2, 3, 9, 5]
+exa@ubuntu:~/0x03$
+</code></pre>
+<p>Repo:</p>
+<ul>
+<li>GitHub repository: <code>PyLAMP-Program_Projects</code></li>
+<li>Directory: <code>0x03-python-data_structures</code></li>
+<li>File: <code>2-replace_in_list.py</code></li>
+</ul>
+<h3 id="3-print-a-list-of-integers-in-reverse">3. Print a list of integers... in reverse!</h3>
+<p>Write a function that prints all integers of a list, in reverse order.</p>
+<ul>
+<li>Prototype: <code>def print_reversed_list_integer(my_list=[]):</code></li>
+<li>Format: one integer per line. See example</li>
+<li>You are not allowed to import any module</li>
+<li>You can assume that the list only contains integers</li>
+<li>You are not allowed to cast integers into strings</li>
+<li>You have to use <code>str.format()</code> to print integers</li>
+</ul>
+<pre><code>exa@ubuntu:~/0x03$ cat 3-main.py
+#!/usr/bin/python3
+print_reversed_list_integer = __import__('3-print_reversed_list_integer').print_reversed_list_integer
+
+my_list = [1, 2, 3, 4, 5]
+print_reversed_list_integer(my_list)
+
+exa@ubuntu:~/0x03$ ./3-main.py
+5
+4
+3
+2
+1
+exa@ubuntu:~/0x03$
+</code></pre>
+<p>Repo:</p>
+<ul>
+<li>GitHub repository: <code>PyLAMP-Program_Projects</code></li>
+<li>Directory: <code>0x03-python-data_structures</code></li>
+<li>File: <code>3-print_reversed_list_integer.py</code></li>
+</ul>
+<h3 id="4-replace-in-a-copy">4. Replace in a copy</h3>
+<p>Write a function that replaces an element in a list at a specific position without modifying the original list (like in C).</p>
+<ul>
+<li>Prototype: <code>def new_in_list(my_list, idx, element):</code></li>
+<li>If <code>idx</code> is negative, the function should return a copy of the original <code>list</code></li>
+<li>If <code>idx</code> is out of range (&gt; of number of element in <code>my_list</code>), the function should return a copy of the original <code>list</code></li>
+<li>You are not allowed to import any module</li>
+<li>You are not allowed to use <code>try/except</code></li>
+</ul>
+<pre><code>exa@ubuntu:~/0x03$ cat 4-main.py
+#!/usr/bin/python3
+new_in_list = __import__('4-new_in_list').new_in_list
+
+my_list = [1, 2, 3, 4, 5]
+idx = 3
+new_element = 9
+new_list = new_in_list(my_list, idx, new_element)
+
+print(new_list)
+print(my_list)
+
+exa@ubuntu:~/0x03$ ./4-main.py
+[1, 2, 3, 9, 5]
+[1, 2, 3, 4, 5]
+exa@ubuntu:~/0x03$
+</code></pre>
+<p>Repo:</p>
+<ul>
+<li>GitHub repository: <code>PyLAMP-Program_Projects</code></li>
+<li>Directory: <code>0x03-python-data_structures</code></li>
+<li>File: <code>4-new_in_list.py</code></li>
+</ul>
+<h3 id="5-can-you-c-me-now">5. Can you C me now?</h3>
+<p>Write a function that removes all characters <code>c</code> and <code>C</code> from a string.</p>
+<ul>
+<li>Prototype: <code>def no_c(my_string):</code></li>
+<li>The function should return the new string</li>
+<li>You are not allowed to import any module</li>
+<li>You are not allowed to use <code>str.replace()</code></li>
+</ul>
+<pre><code>exa@ubuntu:~/0x03$ cat 5-main.py
+#!/usr/bin/env python3
+no_c = __import__('5-no_c').no_c
+
+print(no_c(&quot;Best School&quot;))
+print(no_c(&quot;Chicago&quot;))
+print(no_c(&quot;C is fun!&quot;))
+
+exa@ubuntu:~/0x03$ ./5-main.py
+Best Shool
+hiago
+ is fun!
+exa@ubuntu:~/0x03$
+</code></pre>
+<p>Repo:</p>
+<ul>
+<li>GitHub repository: <code>PyLAMP-Program_Projects</code></li>
+<li>Directory: <code>0x03-python-data_structures</code></li>
+<li>File: <code>5-no_c.py</code></li>
+</ul>
+<h3 id="6-lists-of-lists-matrix">6. Lists of lists = Matrix</h3>
+<p>Write a function that prints a matrix of integers.</p>
+<ul>
+<li>Prototype: <code>def print_matrix_integer(matrix=[[]]):</code></li>
+<li>Format: see example</li>
+<li>You are not allowed to import any module</li>
+<li>You can assume that the list only contains integers</li>
+<li>You are not allowed to cast integers into strings</li>
+<li>You have to use <code>str.format()</code> to print integers</li>
+</ul>
+<pre><code>exa@ubuntu:~/0x03$ cat 6-main.py
+#!/usr/bin/python3
+print_matrix_integer = __import__('6-print_matrix_integer').print_matrix_integer
+
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+print_matrix_integer(matrix)
+print(&quot;--&quot;)
+print_matrix_integer()
+
+exa@ubuntu:~/0x03$ ./6-main.py | cat -e
+1 2 3$
+4 5 6$
+7 8 9$
+--$
+$
+exa@ubuntu:~/0x03$
+</code></pre>
+<p>Repo:</p>
+<ul>
+<li>GitHub repository: <code>PyLAMP-Program_Projects</code></li>
+<li>Directory: <code>0x03-python-data_structures</code></li>
+<li>File: <code>6-print_matrix_integer.py</code></li>
+</ul>
+<h3 id="7-tuples-addition">7. Tuples addition</h3>
+<p>Write a function that adds 2 tuples.</p>
+<ul>
+<li>Prototype: <code>def add_tuple(tuple_a=(), tuple_b=()):</code><ul>
+<li>Returns a tuple with 2 integers:</li>
+<li>The first element should be the addition of the first element of each argument</li>
+</ul>
+</li>
+<li>The second element should be the addition of the second element of each argument</li>
+<li>You are not allowed to import any module</li>
+<li>You can assume that the two tuples will only contain integers</li>
+<li>If a tuple is smaller than 2, use the value <code>0</code> for each missing integer</li>
+<li>If a tuple is bigger than 2, use only the first 2 integers</li>
+</ul>
+<pre><code>exa@ubuntu:~/0x03$ cat 7-main.py
+#!/usr/bin/python3
+add_tuple = __import__('7-add_tuple').add_tuple
+
+tuple_a = (1, 89)
+tuple_b = (88, 11)
+new_tuple = add_tuple(tuple_a, tuple_b)
+print(new_tuple)
+
+print(add_tuple(tuple_a, (1, )))
+print(add_tuple(tuple_a, ()))
+
+exa@ubuntu:~/0x03$ ./7-main.py
+(89, 100)
+(2, 89)
+(1, 89)
+exa@ubuntu:~/0x03$
+</code></pre>
+<p>Repo:</p>
+<ul>
+<li>GitHub repository: <code>PyLAMP-Program_Projects</code></li>
+<li>Directory: <code>0x03-python-data_structures</code></li>
+<li>File: <code>7-add_tuple.py</code></li>
+</ul>
+<h3 id="8-more-returns">8. More returns!</h3>
+<p>Write a function that returns a tuple with the length of a string and its first character.</p>
+<ul>
+<li>Prototype: <code>def multiple_returns(sentence):</code></li>
+<li>If the sentence is empty, the first character should be equal to <code>None</code></li>
+<li>You are not allowed to import any module</li>
+</ul>
+<pre><code>  exa@ubuntu:~/0x03$ cat 8-main.py
+#!/usr/bin/python3
+multiple_returns = __import__('8-multiple_returns').multiple_returns
+
+sentence = &quot;At school, I learnt C!&quot;
+length, first = multiple_returns(sentence)
+print(&quot;Length: {:d} - First character: {}&quot;.format(length, first))
+
+exa@ubuntu:~/0x03$ ./8-main.py
+Length: 22 - First character: A
+exa@ubuntu:~/0x03$
+</code></pre>
+<p>Repo:</p>
+<ul>
+<li>GitHub repository: <code>PyLAMP-Program_Projects</code></li>
+<li>Directory: <code>0x03-python-data_structures</code></li>
+<li>File: <code>8-multiple_returns.py</code></li>
+</ul>
+<h3 id="9-find-the-max">9. Find the max</h3>
+<p>Write a function that finds the biggest integer of a list.</p>
+<ul>
+<li>Prototype: <code>def max_integer(my_list=[]):</code></li>
+<li>If the list is empty, return <code>None</code></li>
+<li>You can assume that the list only contains integers</li>
+<li>You are not allowed to import any module</li>
+<li>You are not allowed to use the builtin <code>max()</code></li>
+</ul>
+<pre><code>exa@ubuntu:~/0x03$ cat 9-main.py
+#!/usr/bin/python3
+max_integer = __import__('9-max_integer').max_integer
+
+my_list = [1, 90, 2, 13, 34, 5, -13, 3]
+max_value = max_integer(my_list)
+print(&quot;Max: {}&quot;.format(max_value))
+
+exa@ubuntu:~/0x03$ ./9-main.py
+Max: 90
+exa@ubuntu:~/0x03$
+</code></pre>
+<p>Repo:</p>
+<ul>
+<li>GitHub repository: <code>PyLAMP-Program_Projects</code></li>
+<li>Directory: <code>0x03-python-data_structures</code></li>
+<li>File: <code>9-max_integer.py</code></li>
+</ul>
+<h3 id="10-only-by-2">10. Only by 2</h3>
+<p>Write a function that finds all multiples of 2 in a list.</p>
+<ul>
+<li>Prototype: <code>def divisible_by_2(my_list=[]):</code></li>
+<li>Return a new list with <code>True</code> or <code>False</code>, depending on whether the integer at the same position in the original list is a multiple of 2</li>
+<li>The new list should have the same size as the original list</li>
+<li>You are not allowed to import any module</li>
+</ul>
+<pre><code>gexa@ubuntu:~/0x03$ cat 10-main.py
+#!/usr/bin/python3
+divisible_by_2 = __import__('10-divisible_by_2').divisible_by_2
+
+my_list = [0, 1, 2, 3, 4, 5, 6]
+list_result = divisible_by_2(my_list)
+
+i = 0
+while i &lt; len(list_result):
+    print(&quot;{:d} {:s} divisible by 2&quot;.format(my_list[i], &quot;is&quot; if list_result[i] else &quot;is not&quot;))
+    i += 1
+
+exa@ubuntu:~/0x03$ ./10-main.py
+0 is divisible by 2
+1 is not divisible by 2
+2 is divisible by 2
+3 is not divisible by 2
+4 is divisible by 2
+5 is not divisible by 2
+6 is divisible by 2
+exa@ubuntu:~/0x03$
+</code></pre>
+<p>Repo:</p>
+<ul>
+<li>GitHub repository: <code>PyLAMP-Program_Projects</code></li>
+<li>Directory: <code>0x03-python-data_structures</code></li>
+<li>File: <code>10-divisible_by_2.py</code></li>
+</ul>
+<h3 id="11-delete-at">11. Delete at</h3>
+<p>Write a function that deletes the item at a specific position in a list.</p>
+<ul>
+<li>Prototype: <code>def delete_at(my_list=[], idx=0):</code></li>
+<li>If <code>idx</code> is negative or out of range, nothing change (returns the same list)</li>
+<li>You are not allowed to use <code>pop()</code></li>
+<li>You are not allowed to import any module</li>
+</ul>
+<pre><code>exa@ubuntu:~/0x03$ cat 11-main.py
+#!/usr/bin/python3
+delete_at = __import__('11-delete_at').delete_at
+
+my_list = [1, 2, 3, 4, 5]
+idx = 3
+new_list = delete_at(my_list, idx)
+print(new_list)
+print(my_list)
+
+exa@ubuntu:~/0x03$ ./11-main.py
+[1, 2, 3, 5]
+[1, 2, 3, 5]
+exa@ubuntu:~/0x03$
+</code></pre>
+<p>Repo:</p>
+<ul>
+<li>GitHub repository: <code>PyLAMP-Program_Projects</code></li>
+<li>Directory: <code>0x03-python-data_structures</code></li>
+<li>File: <code>11-delete_at.py</code></li>
+</ul>
+<h3 id="12-switch">12. Switch</h3>
+<p>Complete the source code in order to switch value of <code>a</code> and <code>b</code></p>
+<ul>
+<li>You can find the source code <a href="https://github.com/alx-tools/0x03.py/blob/master/12-switch_py">here</a></li>
+<li>Your code should be inserted where the comment is (line 4)</li>
+<li>Your program should be exactly 5 lines long</li>
+</ul>
+<pre><code>exa@ubuntu:~/py/0x03$ ./12-switch.py
+a=10 - b=89
+exa@ubuntu:~/py/0x03$ wc -l 12-switch.py
+5 12-switch.py
+exa@ubuntu:~/py/0x03$
+</code></pre>
+<p>Repo:</p>
+<ul>
+<li>GitHub repository: <code>PyLAMP-Program_Projects</code></li>
+<li>Directory: <code>0x03-python-data_structures</code></li>
+<li>File: <code>12-switch.py</code></li>
+</ul>
 
 
 
@@ -2426,10 +2970,10 @@ root@hex:~#
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.f55a23d4.min.js"></script>
       
     
   </body>
